@@ -23,9 +23,9 @@ html {
     vertical-align: top;
 }
 
-.titulo-logo {
+/*.titulo-logo {
    
-}
+}*/
 
 .box {
     font-size: 10rem;
@@ -50,7 +50,7 @@ html {
     margin-right: 2rem;
 }
 
-#botao-zerar {
+#botao-pausar {
     background-color: aliceblue;
     padding: 3rem;
     color: white;
