@@ -1,0 +1,61 @@
+html {
+    margin: 0;
+}
+
+.conteudo-central {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 4rem;
+    border: 3px solid grey;
+    border-radius: 10px;
+}
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+}
+
+.titulo-logo h1 {
+    display: inline-block;
+    color: black;
+    font-size: 2rem;
+    vertical-align: top;
+}
+
+.titulo-logo {
+   
+}
+
+.box {
+    font-size: 10rem;
+    color: orange;
+    margin: 2rem 0;
+}
+
+.botoes {
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+#botao-iniciar {
+    background-color: yellowgreen;
+    padding: 3rem;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    color: olivedrab;
+    margin-right: 2rem;
+}
+
+#botao-zerar {
+    background-color: aliceblue;
+    padding: 3rem;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    color: black;
+    margin-left: 2rem;
+}
