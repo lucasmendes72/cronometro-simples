@@ -28,7 +28,8 @@ html {
 }*/
 
 .box {
-    font-size: 10rem;
+    position: relative;
+    font-size: 8rem;
     color: orange;
     margin: 2rem 0;
 }
@@ -47,10 +48,19 @@ html {
     border: none;
     font-size: 1rem;
     color: olivedrab;
-    margin-right: 2rem;
 }
 
 #botao-pausar {
+    background-color: aliceblue;
+    padding: 3rem;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    color: black;
+    margin-left: 2rem;
+}
+
+#botao-zerar {
     background-color: aliceblue;
     padding: 3rem;
     color: white;
