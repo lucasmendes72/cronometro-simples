@@ -9,6 +9,7 @@ var horas = 0;
 
 botaoIniciar.addEventListener('click', () => {
     contador = setInterval(mudaCronometro, 10)
+    botaoIniciar.style.display = "none";
 })
 
 function mudaCronometro(){
@@ -16,7 +17,7 @@ function mudaCronometro(){
     cronometro.innerHTML = '0'+horas+':'+'0'+minutos+':'+'0'+segundos+':'+milisegundos 
    if(milisegundos > 99){
         milisegundos = 0
-        segundos += 1
+        segundos += 1;
     }
     if(segundos > 9){
         cronometro.innerHTML = '0'+horas+':'+'0'+minutos+':'+segundos+':'+milisegundos
@@ -40,10 +41,12 @@ function mudaCronometro(){
  
 botaoPausar.addEventListener('click', () => {
     clearInterval(contador)
+    botaoIniciar.style.display = "inline-block";
 })
 
 botaoZerar.addEventListener('click', () => {
     resetaContagem()
+    botaoIniciar.style.display = "inline-block";
 })
 
 function resetaContagem(){
