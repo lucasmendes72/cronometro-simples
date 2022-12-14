@@ -14,7 +14,7 @@ body {
     background: #e0e0e0;
     box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;         
     text-align: center;
-    margin: 0 auto;
+    margin: 2rem auto;
     z-index: 30;
 }
 
@@ -102,4 +102,17 @@ body {
     border: 2px solid var(--grey);
     color: #434242;
     color: var(--grey);
+   }
+
+   .description {
+    position: absolute;
+    width: 60%;
+    height: 300px;
+    top: 10%;
+    margin: auto;
+    background-color: #735F32;
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 10;
    }
