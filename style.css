@@ -30,10 +30,6 @@ body {
     vertical-align: top;
 }
 
-/*.titulo-logo {
-   
-}*/
-
 .box {
     position: relative;
     font-size: 8rem;
@@ -115,4 +111,25 @@ body {
     border-radius: 20px;
     position: absolute;
     z-index: 10;
+   }
+
+   /* Estilização Responsiva da Página */
+
+   @media screen and (max-device-width: 480px){    
+    .conteudo-central {
+        width: 90vw;
+        height: auto;
+        margin: 20% auto;
+       }
+
+       .box {
+        font-size: 3.5rem;
+       }
+
+       #botao-iniciar, #botao-pausar, #botao-zerar {
+        display: block;
+        text-align: center;
+        margin: 0 auto 1rem auto;
+        width: 180px;
+       }
    }
